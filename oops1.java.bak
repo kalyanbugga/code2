@@ -1,0 +1,19 @@
+class Abc  
+{
+	int x;
+	
+	public void reference(int x)
+	{
+		System.out.println();
+		System.out.println(x);
+	}
+}
+class test
+{
+	public static void main(String[]args) 
+	{
+	    Abc t=new Abc();
+		t.x=99;
+        t.reference(11);
+	}
+}
